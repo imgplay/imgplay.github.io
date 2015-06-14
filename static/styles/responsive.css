@@ -70,8 +70,8 @@
   }
   .main-app-description.right-side .app-icon img,
   .main-app-description.left-side .app-icon img {
-    max-width: 256px;
-    max-height: 256px;
+    max-width: 200px;
+    max-height: 200px;
   }
   /* Features */
   .features-specification.left-side,
@@ -365,6 +365,10 @@
 ---------------------------------------------------*/
 @media (max-width: 479px) {
   /* Devices */
+  .landing .carousel {
+    display:none;
+  }
+
   .device-mobile {
     width: 175px;
     height: 325px;
