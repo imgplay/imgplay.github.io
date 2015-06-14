@@ -29,7 +29,7 @@
 body {
   overflow-x: hidden;
   background: transparent;
-  font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+  font-family: 'Source Sans Pro', sans-serif;
   color: #333333;
 }
 h1 {
@@ -393,14 +393,15 @@ section.landing-auto {
 }
 .main-title {
   margin-top: 0;
-  font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+  margin-bottom: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
   word-wrap: break-word;
-  font-weight: 500;
+  font-weight: 400;
 }
 .main-description {
   margin-top: 20px;
   padding-bottom: 20px;
-  font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   font-weight: 100;
 }
@@ -420,7 +421,7 @@ section.landing-auto {
   margin: 0 2px;
 }
 .copyrights-landing {
-  margin-top: 20px;
+  margin-top: 0px;
   font-size: 12px;
   opacity: 0.5;
 }
