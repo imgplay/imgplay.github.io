@@ -365,14 +365,11 @@
 ---------------------------------------------------*/
 @media (max-width: 479px) {
   /* Devices */
-  .landing .carousel {
-    display:none;
-  }
 
   .device-mobile {
-    width: 175px;
-    height: 325px;
-    background-size: 175px 325px;
+    width: 270px;
+    height: 501px;
+    background-size: 270px 501px;
   }
   .device-mobile .highlight,
   .device-mobile.shadow:before {
@@ -407,10 +404,10 @@
   .ios-iphone6-black .img-screen-wrapper,
   .ios-iphone6-silver .img-screen-wrapper,
   .ios-iphone6-gold .img-screen-wrapper {
-    top: 47px;
-    left: 22px;
-    width: 130px;
-    height: 231px;
+    top: 71px;
+    left: 35px;
+    width: 200px;
+    height: 360px;
   }
   .ios-iphone6plus-black .img-screen-wrapper,
   .ios-iphone6plus-silver .img-screen-wrapper,
