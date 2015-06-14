@@ -29,7 +29,7 @@
 body {
   overflow-x: hidden;
   background: transparent;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'FontAwesome', sans-serif;
   color: #333333;
 }
 h1 {
@@ -42,7 +42,7 @@ h2 {
 }
 h3 {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 550;
 }
 h4 {
   margin-top: 20px;
@@ -57,12 +57,16 @@ h6 {
   margin-top: 15px;
   font-size: 12px;
 }
+h7 {
+	font-size: 15px;
+	font-weight: 500;
+}
 section {
   padding: 60px 0 60px;
 }
 section.footer,
 section div.footer {
-  padding: 40px 0 30px;
+  padding: 40px 0 30px
 }
 ul {
   list-style: none;
@@ -394,14 +398,14 @@ section.landing-auto {
 .main-title {
   margin-top: 0;
   margin-bottom: 25px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'FontAwesome', sans-serif;
   word-wrap: break-word;
   font-weight: 400;
 }
 .main-description {
   margin-top: 20px;
   padding-bottom: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'FontAwesome', sans-serif;
   font-size: 18px;
   font-weight: 100;
 }
@@ -1881,8 +1885,8 @@ ul.social-icons li.google-plus:hover a {
   display: inline-block;
 }
 .margin-vertical {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .v-indent-40 {
   height: 40px;
