@@ -29,7 +29,7 @@
 body {
   overflow-x: hidden;
   background: transparent;
-  font-family: 'FontAwesome', sans-serif;
+  font-family: 'Hind', sans-serif;
   color: #333333;
 }
 h1 {
@@ -59,7 +59,7 @@ h6 {
 }
 h7 {
 	font-size: 15px;
-	font-weight: 500;
+	font-weight: 400;
 }
 section {
   padding: 60px 0 60px;
@@ -116,7 +116,7 @@ a.text-white:focus {
   padding: 5px 0;
 }
 .check-list li:before {
-  font-family: 'FontAwesome';
+  font-family: 'Hind';
   content: '\f058';
   color: #fec200;
   margin-right: 10px;
@@ -128,7 +128,7 @@ a.text-white:focus {
   display: none;
 }
 .check-list.text-right li:after {
-  font-family: 'FontAwesome';
+  font-family: 'Hind';
   content: '\f058';
   color: #fec200;
   margin-left: 10px;
@@ -398,16 +398,16 @@ section.landing-auto {
 .main-title {
   margin-top: 0;
   margin-bottom: 25px;
-  font-family: 'FontAwesome', sans-serif;
+  font-family: 'Hind', sans-serif;
   word-wrap: break-word;
   font-weight: 400;
 }
 .main-description {
   margin-top: 20px;
   padding-bottom: 20px;
-  font-family: 'FontAwesome', sans-serif;
+  font-family: 'Hind', sans-serif;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 300;
 }
 .main-description.with-bg {
   padding: 20px;
@@ -687,7 +687,7 @@ fieldset[disabled] .btn-link:focus {
 }
 .features-specification.left-side .check-list li:after,
 .features-specification-fixed.left-side .check-list li:after {
-  font-family: 'FontAwesome';
+  font-family: 'Hind';
   content: '\f058';
   color: #fec200;
   margin-left: 10px;
@@ -1009,7 +1009,7 @@ fieldset[disabled] .btn-link:focus {
   position: absolute;
   top: 40%;
   left: 10%;
-  font-family: 'FontAwesome';
+  font-family: 'Hind';
   content: '\f104';
   text-shadow: none;
   font-size: 48px;
