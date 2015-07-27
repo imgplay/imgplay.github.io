@@ -41,13 +41,19 @@
     <link href='http://fonts.googleapis.com/css?family=Hind:300,500' rel='stylesheet' type='text/css'>  
       
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        var language = window.navigator.userLanguage || window.navigator.language;
+        if (language.toLocaleUpperCase() == "JA") {
+            window.location = "/ja.html";
+            return;
+        }
 
-      ga('create', 'UA-51541531-9', 'auto');
-      ga('send', 'pageview');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-51541531-9', 'auto');
+        ga('send', 'pageview');
 
     </script>
 </head>
@@ -117,23 +123,23 @@
 <section id="features" class="section-color">
     <div class="container">
 
-        <h2 class="text-center wow fadeIn">Features</h2>
+        <h2 class="text-center">Features</h2>
 
         <!-- Simple features section -->
         <div class="row features-simple">
-            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical wow fadeIn">
+            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical">
                 <h3>Making<br> GIFs and Videos!</h3>
                 <p><h7>ImgPlay can make GIF animations quickly with the burst photos. Imgplay can also make animated GIFs or videos by editing only the fun part of a video.</h7></p>
             </div>
-            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical wow fadeIn" data-wow-delay="0.2s">
+            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical wow">
                 <h3>Playing<br> your photos</h3>
                 <p><h7>ImgPlay can make you feel the moment you shot videos and photos more lively!</h7></p>
             </div>
-            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical wow fadeIn" data-wow-delay="0.4s">
+            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical wow">
                 <h3>Controlling<br> speed, direction</h3>
                 <p><h7>You can control the GIF's playing speed or direction. speed : 0.02sec ~ 1sec <br>direction : forwards, backwards, forwards then backwards</h7></p>
             </div>
-            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical wow fadeIn" data-wow-delay="0.6s">
+            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical">
                 <h3>Sharing<br> quickly on SNS!</h3>
                 <p><h7>Make your own GIF and share. You can sharing directly on different SNS.</h7></p> 
                     <img src="static/images/icon/ico_facebook.png" width="30">
@@ -242,28 +248,8 @@
     </div>
 </section><!-- /Footer -->
 
-<script src="static/vendor/requirejs/require.js"></script>
 <script src="static/scripts/config.js"></script>
 <script>
-    require([
-        'feature/scroll',
-        'feature/wow',
-        'feature/preloader',
-        'feature/fancybox',
-        'feature/fullscreen',
-        'feature/menu',
-        'feature/navigation',
-        'feature/parallax',
-        'feature/jparallax',
-        'feature/subscribe',
-        'feature/tooltip',
-        'feature/video',
-        'feature/i-specs',
-        'feature/i-screen',
-        'feature/carousel',
-        'feature/accordion'
-    ]);
-
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
     if( userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPod/i) || userAgent.match( /Android/i )){

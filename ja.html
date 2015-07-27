@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ImgPlay - Animated GIF Maker</title>
+    <title>ImgPlay - GIF動画が作れる</title>
 
     <meta name="description" content="ImgPlay - GIF動画が作れる">
     <meta name="author" content="ImgBase">
@@ -244,14 +244,12 @@
 
 <script src="static/scripts/config.js"></script>
 <script>
-    
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
     if( userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPod/i) || userAgent.match( /Android/i )){
         document.getElementById("tutorialVideo").controls = true;
     } else {
         document.getElementById("tutorialVideo").controls = false;
     }
-
 </script>
 </body>
 </html>
