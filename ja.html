@@ -7,22 +7,22 @@
 
     <title>ImgPlay - Animated GIF Maker</title>
 
-    <meta name="description" content="ImgPlay - Animated GIF Maker">
+    <meta name="description" content="ImgPlay - GIF動画が作れる">
     <meta name="author" content="ImgBase">
     <meta name="keywords" content="imgplay,gif,maker,animated,burst,image,picture,photo,convert,animate,animation,editor,video,post,pic,creator,make,to,of,moving">
     <meta name="copyright" content="ImgBase" >
     <meta name="application-name" content="ImgPlay">
     
     <meta property="og:url" content="http://imgplay.net"/>
-    <meta property="og:title" content="ImgPlay - Animated GIF Maker"/>
-    <meta property="og:description" content="The best way to create GIFs on iPhone & iPad!"/>
+    <meta property="og:title" content="ImgPlay - GIF動画が作れる"/>
+    <meta property="og:description" content="写真、バースト、ビデオを利用して、最も簡単にGIF画像が作れるアプリです。"/>
     <meta property="og:type" content="website"/>    
     <meta property="og:site_name" content="ImgPlay"/>
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@imgplay" />
-    <meta name="twitter:title" content="ImgPlay - Animated GIF Maker" />
-    <meta name="twitter:description" content="The best way to create GIFs on iPhone & iPad!." />
+    <meta name="twitter:title" content="ImgPlay - GIF動画が作れる" />
+    <meta name="twitter:description" content="写真、バースト、ビデオを利用して、最も簡単にGIF画像が作れるアプリです。" />
     <meta name="twitter:image" content="static/images/icon/app_icon.png" />
     <meta name="twitter:url" content="http://imgplay.net" />
 
@@ -121,19 +121,19 @@
 
         <!-- Simple features section -->
         <div class="row features-simple">
-            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical wow">
+            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical">
                 <h3>GIF動画、<br>Videoが作れる </h3>
                 <p><h7>超高速連写で撮影した写真でGIFアニメーションが簡単に作れます。ビデオ映像から面白い部分だけを切り取って、短いGIF動画やビデオも作れます。</h7></p>
             </div>
-            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical wow" data-wow-delay="0.2s">
+            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical">
                 <h3>写真を再生できる</h3>
                 <p><h7>写真やビデオを撮ったその瞬間がもっと楽しめるアプリ！</h7></p>
             </div>
-            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical wow" data-wow-delay="0.4s">
+            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical">
                 <h3>再生速度,<br>再生方向を調整できる</h3>
                 <p><h7>GIF動画の再生速度や 再生方向を調整できます。再生速度 : 0.02秒 ~ 1秒 再生方向 : 順再生, 逆再生, 順再生した後逆再生</h7></p>
             </div>
-            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical wow" data-wow-delay="0.6s">
+            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical">
                 <h3>ソーシャルネットワーキングに迅速に共有できる</h3>
                 <p><h7>これからは直接GIF動画を 作って共有しましょう。すぐに様々なソーシャルネットワーキングに共有することができます。</h7></p> 
                     <img src="static/images/icon/ico_facebook.png" width="30">
@@ -201,7 +201,7 @@
                 </div>
 
                 <!-- Social icons -->
-                <ul class="social-icons inverse" data-wow-offset="100">
+                <ul class="social-icons inverse">
                     <li class="twitter"><a href="https://twitter.com/imgplay"><i class="fa fa-twitter"></i></a></li>
                     <li class="instagram"><a href="https://instagram.com/imgplay"><i class="fa fa-instagram"></i></a></li>
                 </ul>
@@ -242,30 +242,10 @@
     </div>
 </section><!-- /Footer -->
 
-<script src="static/vendor/requirejs/require.js"></script>
 <script src="static/scripts/config.js"></script>
 <script>
-    require([
-        'feature/scroll',
-        'feature/wow',
-        'feature/preloader',
-        'feature/fancybox',
-        'feature/fullscreen',
-        'feature/menu',
-        'feature/navigation',
-        'feature/parallax',
-        'feature/jparallax',
-        'feature/subscribe',
-        'feature/tooltip',
-        'feature/video',
-        'feature/i-specs',
-        'feature/i-screen',
-        'feature/carousel',
-        'feature/accordion'
-    ]);
-
+    
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-
     if( userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPod/i) || userAgent.match( /Android/i )){
         document.getElementById("tutorialVideo").controls = true;
     } else {
