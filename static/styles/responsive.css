@@ -367,8 +367,7 @@
   /* Devices */
 
   .device-mobile {
-
-    display:block;
+    display:none;
     width: 270px;
     height: 501px;
     background-size: 270px 501px;

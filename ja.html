@@ -27,7 +27,24 @@
 
     <meta name="apple-itunes-app" content="app-id=989843523, app-argument=landing">
 
-    <link rel="shortcut icon" href="static/images/fav.png" type="image/png">
+    <meta name="apple-itunes-app" content="app-id=989843523, app-argument=landing">
+    <link rel="apple-touch-icon" sizes="57x57" href="static/images/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/images/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/images/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/images/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/images/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/images/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/images/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/images/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="static/images/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/images/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/icon/favicon-16x16.png">
+    <link rel="manifest" href="static/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="static/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     <link href="static/vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="static/vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -67,7 +84,7 @@
                 <div class="col-md-5 col-xs-12">
                     <div id="carousel-device-ios" class="carousel-device device-mobile ios-iphone6-gold carousel slide" data-pause="true">
                         <div class="carousel-inner carousel-inner-device img-screen-wrapper">
-                            <video id="tutorialVideo" width="100%" height= "100%" src="static/video/tutorial.mp4" poster="static/images/screenshots/ios-01.jpg" preload autoplay loop muted proload>
+                            <video id="tutorialVideo" width="100%" height= "100%" src="static/video/tutorial.mp4" poster="static/video/preview.png" preload autoplay loop muted proload>
                         </div>
                     </div>
                 </div><!-- /Device -->
@@ -99,35 +116,29 @@
 <!-- Features -->
 <section id="features" class="section-color">
     <div class="container">
-
-        <h2 class="text-center">機能</h2>
-
-        <!-- Simple features section -->
-        <div class="row features-simple">
-            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical">
-                <h3>GIF動画、<br>Videoが作れる </h3>
-                <p><h7>超高速連写で撮影した写真でGIFアニメーションが簡単に作れます。ビデオ映像から面白い部分だけを切り取って、短いGIF動画やビデオも作れます。</h7></p>
+        <div class="row">
+            <div class="col-md-4 margin-vertical">
+                <img style="display:block;margin:0 auto;" src="static/images/screenshots/ja/01.png" />
             </div>
-            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical">
-                <h3>写真を再生できる</h3>
-                <p><h7>写真やビデオを撮ったその瞬間がもっと楽しめるアプリ！</h7></p>
+            <div class="col-md-4 margin-vertical">
+                <img style="display:block;margin:0 auto;" src="static/images/screenshots/ja/02.png" />
             </div>
-            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical">
-                <h3>再生速度,<br>再生方向を調整できる</h3>
-                <p><h7>GIF動画の再生速度や 再生方向を調整できます。再生速度 : 0.02秒 ~ 1秒 再生方向 : 順再生, 逆再生, 順再生した後逆再生</h7></p>
+            <div class="col-md-4 margin-vertical">
+                <img style="display:block;margin:0 auto;" src="static/images/screenshots/ja/03.png" />
             </div>
-            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical">
-                <h3>ソーシャルネットワーキングに迅速に共有できる</h3>
-                <p><h7>これからは直接GIF動画を 作って共有しましょう。すぐに様々なソーシャルネットワーキングに共有することができます。</h7></p> 
-                    <img src="static/images/icon/ico_facebook.png" width="30">
-                    <img src="static/images/icon/ico_messenger.png" width="30">
-                    <img src="static/images/icon/ico_twitter.png" width="30">
-                    <img src="static/images/icon/ico_instagram.png" width="30">
-                    <img src="static/images/icon/ico_sinaweibo.png" width="30">
+            
+        </div>
+        <div class="row">
+            <div class="col-md-6 margin-vertical">
+                <img style="display:block;margin:0 auto;" src="static/images/screenshots/ja/04.png" />
+            </div>
+            <div class="col-md-6 margin-vertical">
+                <img style="display:block;margin:0 auto;" src="static/images/screenshots/ja/05.png" />
             </div>
         </div><!-- /Simple features section -->
     </div>
 </section><!-- /Features -->
+
 
 <!-- Section with reviews, app market buttons, subscribe -->
 
@@ -138,11 +149,12 @@
                 <!-- App Marker buttons -->
 
                 <div class="group-inline" style="margin-top:20px;">
-                    <a href="https://itunes.apple.com/jp/app/id989843523" target="_blank"><div class="btn-store btn-store-ios-black"></div></a>
+                    <a href="https://itunes.apple.com/jp/app/id989843523" target="_blank"><div class="btn-store btn-store-ios-white"></div></a>
                 </div>
 
                 <!-- Social icons -->
                 <ul class="social-icons inverse">
+                    <li class="facebook"><a href="https://www.facebook.com/imgplayapp"><i class="fa fa-facebook"></i></a></li>
                     <li class="twitter"><a href="https://twitter.com/imgplay"><i class="fa fa-twitter"></i></a></li>
                     <li class="instagram"><a href="https://instagram.com/imgplay"><i class="fa fa-instagram"></i></a></li>
                 </ul>
@@ -171,6 +183,7 @@
                     <ul class="footer-menu">
                         <li><a href="https://twitter.com/imgplay">Twitter</a></li>
                         <li><a href="https://instagram.com/imgplay">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/imgplayapp">Facebook</a></li>
                     </ul>
                     <div class="footer-last">
                         <ul class="footer-menu">
