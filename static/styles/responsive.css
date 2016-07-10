@@ -368,7 +368,7 @@
 
   .device-mobile {
 
-    display:none;
+    display:block;
     width: 270px;
     height: 501px;
     background-size: 270px 501px;

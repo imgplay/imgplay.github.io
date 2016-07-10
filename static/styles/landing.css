@@ -30,7 +30,7 @@ body {
   overflow-x: hidden;
   background: transparent;
   font-family: 'Hind', sans-serif;
-  color: #333333;
+  color: #FFC000;
 }
 h1 {
   font-size: 60px;
@@ -59,10 +59,10 @@ h6 {
 }
 h7 {
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 200;
 }
 section {
-  padding: 60px 0 60px;
+  padding: 0px 0 60px;
 }
 section.footer,
 section div.footer {
@@ -343,7 +343,7 @@ section.landing-auto {
   padding-bottom: 0;
 }
 .landing .container {
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 /* Devices */
 .device-mobile {
@@ -385,7 +385,7 @@ section.landing-auto {
   padding-top: 40px;
 }
 .main-app-description.right-side .app-icon {
-  margin-right: 20px;
+  margin-right: 35px;
   float: left;
 }
 .main-app-description.left-side {
@@ -400,14 +400,14 @@ section.landing-auto {
   margin-bottom: 25px;
   font-family: 'Hind', sans-serif;
   word-wrap: break-word;
-  font-weight: 400;
+  font-weight: 700;
 }
 .main-description {
   margin-top: 20px;
   padding-bottom: 20px;
   font-family: 'Hind', sans-serif;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 200;
 }
 .main-description.with-bg {
   padding: 20px;
@@ -439,7 +439,7 @@ section.landing-auto {
 /* 04. Section styles and settings
 -------------------------------------------------------------------*/
 .section-color {
-  background-color: #ffffff;
+  background-color: #1f1f1f;
 }
 .section-video {
   background: #1f1f1f;
@@ -643,6 +643,15 @@ fieldset[disabled] .btn-link:focus {
 .features-simple {
   text-align: center;
 }
+
+.features-simple h3 {
+  color:#FFC000;
+}
+
+.features-simple p {
+  color:#fff;
+}
+
 .features-simple .spec-icon {
   display: inline-block;
   margin: 0;
@@ -1844,7 +1853,7 @@ ul.social-icons li.google-plus:hover a {
 /* 08. Footer
 -------------------------------------------------------------------*/
 .footer {
-  background: #222;
+  background: #333333;
   color: #808080;
 }
 .footer a:hover {
