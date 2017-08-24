@@ -308,7 +308,7 @@ a.text-white:focus {
   background-color: #647684;
 }
 .bg-landing-photo {
-  background: #1f1f1f;
+  background: #111111;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -439,10 +439,10 @@ section.landing-auto {
 /* 04. Section styles and settings
 -------------------------------------------------------------------*/
 .section-color {
-  background-color: #1f1f1f;
+  background-color: #111111;
 }
 .section-video {
-  background: #1f1f1f;
+  background: #111111;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1853,7 +1853,7 @@ ul.social-icons li.google-plus:hover a {
 /* 08. Footer
 -------------------------------------------------------------------*/
 .footer {
-  background: #333333;
+  background: #222222;
   color: #808080;
 }
 .footer a:hover {
