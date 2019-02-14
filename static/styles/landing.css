@@ -376,6 +376,7 @@ section.landing-auto {
   max-height: 128px;
   min-width: 96px;
   min-height: 96px;
+  border-radius: 25%
 }
 .navbar-collapse .app-icon {
   display: none;
