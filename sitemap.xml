@@ -8,8 +8,6 @@
        <video:description>How to make your own animated GIFs on your iPhone</video:description>
        <video:content_loc>
            http://imgplay.net/static/video/en/preview.mp4</video:content_loc>
-       <video:player_loc>
-         http://www.example.com/videoplayer.php?video=123</video:player_loc>
        <video:duration>30</video:duration>
        <video:family_friendly>yes</video:family_friendly>
        <video:restriction relationship="allow">IE GB US CA</video:restriction>
