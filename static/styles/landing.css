@@ -565,7 +565,7 @@ fieldset[disabled] .btn-link:focus {
   height: 50px;
   margin-right: 10px;
   margin-bottom: 5px;
-  border-radius: 5px;
+  border-radius: 9px;
 }
 
 .btn-store-android {
@@ -573,7 +573,7 @@ fieldset[disabled] .btn-link:focus {
   height: 50px;
   margin-right: 10px;
   margin-bottom: 5px;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 /* black styles */
