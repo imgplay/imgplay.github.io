@@ -561,12 +561,21 @@ fieldset[disabled] .btn-link:focus {
 }
 /* Store buttons */
 .btn-store {
+  width: 150px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.btn-store-android {
   width: 165px;
   height: 50px;
   margin-right: 10px;
   margin-bottom: 5px;
   border-radius: 5px;
 }
+
 /* black styles */
 .btn-store-ios-black {
   background-image: url("../images/store-btns-black.png");
@@ -581,7 +590,7 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-store-android-black {
   background-image: url("../images/store-btns-black.png");
-  background-position: -165px 0;
+  background-position: -150px 0;
 }
 .btn-store-android-black:hover {
   -webkit-box-shadow: 0 0 10px #808080;
@@ -617,7 +626,7 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-store-android-white {
   background-image: url("../images/store-btns-white.png");
-  background-position: -165px 0;
+  background-position: -150px 0;
 }
 .btn-store-android-white:hover {
   -webkit-box-shadow: 0 0 10px #fff;
@@ -1916,51 +1925,51 @@ ul.social-icons li.google-plus:hover a {
   /* App market buttons */
   .btn-store-ios-black {
     background-image: url("../images/store-btns-black@2x.png");
-    background-size: 495px 50px;
+    background-size: 315px 50px;
   }
   .btn-store-inverse .btn-store-ios-black:hover {
     background-image: url("../images/store-btns-white@2x.png");
-    background-size: 495px 50px;
+    background-size: 315px 50px;
   }
   .btn-store-android-black {
     background-image: url("../images/store-btns-black@2x.png");
-    background-size: 495px 50px;
+    background-size: 315px 50px;
   }
   .btn-store-inverse .btn-store-android-black:hover {
     background-image: url("../images/store-btns-white@2x.png");
-    background-size: 495px 50px;
+    background-size: 315px 50px;
   }
   .btn-store-wp-black {
     background-image: url("../images/store-btns-black@2x.png");
-    background-size: 495px 50px;
+    background-size: 315px 50px;
   }
   .btn-store-inverse .btn-store-wp-black:hover {
     background-image: url("../images/store-btns-white@2x.png");
-    background-size: 495px 50px;
+    background-size: 315px 50px;
   }
   .btn-store-ios-white {
     background-image: url("../images/store-btns-white@2x.png");
-    background-size: 495px 50px;
+    background-size: 315px 50px;
   }
   .btn-store-inverse .btn-store-ios-white:hover {
     background-image: url("../images/store-btns-black@2x.png");
-    background-size: 495px 50px;
+    background-size: 315px 50px;
   }
   .btn-store-android-white {
     background-image: url("../images/store-btns-white@2x.png");
-    background-size: 495px 50px;
+    background-size: 315px 50px;
   }
   .btn-store-inverse .btn-store-android-white:hover {
     background-image: url("../images/store-btns-black@2x.png");
-    background-size: 495px 50px;
+    background-size: 315px 50px;
   }
   .btn-store-wp-white {
     background-image: url("../images/store-btns-white@2x.png");
-    background-size: 495px 50px;
+    background-size: 315px 50px;
   }
   .btn-store-inverse .btn-store-wp-white:hover {
     background-image: url("../images/store-btns-black@2x.png");
-    background-size: 495px 50px;
+    background-size: 315px 50px;
   }
   /* preloader */
   .preloader-icon-gif {
